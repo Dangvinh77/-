@@ -1,0 +1,53 @@
+#gradient_title {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  /* color: red; */
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgb(112, 0, 0),
+    blue,
+    rgb(239, 94, 94),
+    rgb(255, 255, 0),
+    rgb(129, 129, 4)
+  );
+  text-shadow: 3px 2px 1px rgba(255, 0, 0, 0.507);
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+#gradient_title2 {
+  font-family: Arial, sans-serif;
+  font-weight: bolder; /* Đặt chữ đậm */
+  text-transform: uppercase; /* Chữ in hoa */
+  padding: 10px;
+  /* Nền gradient */
+  background: linear-gradient(
+    90deg,
+    rgba(200, 5, 5, 0.703),
+    blue,
+    rgb(239, 94, 94),
+    rgb(255, 255, 0),
+    rgb(129, 129, 4)
+  );
+  background-size: 100%; /* Nền đầy đủ kích thước */
+  /* Màu chữ là đen */
+  color: black;
+
+  /* Bóng chữ */
+  text-shadow: 3px 3px 1px rgba(255, 0, 0, 0.507);
+  background-size: 50%;
+  /* Đặt màu nền của text không trong suốt */
+  -webkit-text-fill-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+  to {
+    background-position: 400%;
+  }
+}

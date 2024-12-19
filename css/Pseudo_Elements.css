@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 1);
+  font-weight: bold;
+  font-style: normal;
+  background: rgb(35, 34, 45);
+}
+
+header {
+  /* Fire Effect Text */
+  text-shadow: 0 0 10px rgb(170, 3, 3), 0 0 20px white,
+    0 0 20px rgb(186, 121, 121), 0 0 30px white;
+}
+
+.title-info {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+section {
+  box-sizing: border-box;
+}
+
+.subtitle-info {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+.table-css {
+  width: 100%;
+}
+
+.table-css {
+  border: 3px solid rgb(255, 230, 0);
+  border-radius: 10px;
+  max-width: 80%; /* Đảm bảo bảng không vượt quá kích thước màn hình */
+  margin: 50px auto;
+  overflow: hidden; /* Chặn nội dung vượt qua viền bo tròn */
+}
+
+.info-row {
+  position: relative; /* Để sử dụng pseudo-element chính xác */
+}
+
+.info-row {
+  border-bottom: 3px dashed #ccc; /* Đường nét đứt */
+  margin-bottom: 10px; /* Khoảng cách giữa các hàng */
+  padding-bottom: 10px; /* Khoảng cách nội dung bên trong */
+}
+
+.info-row:last-child {
+  border-bottom: none; /* Ẩn đường ngăn cách ở hàng cuối */
+}
+
+.title-tag {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.detail-description {
+  opacity: 0.6;
+  padding: 10px;
+}
+
+.code-sample {
+  display: flex;
+  border: 2px solid;
+  border-radius: 10px;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.code-block {
+  padding: 5px 30px;
+}
+
+.result-sample {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.list-result {
+  padding: 0px 130px;
+}
+
+.input-sample {
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+  color: blue;
+  border-radius: 10px;
+}
+
+/* Code Sample Result */
+/* 1.Before */
+.sample-before::before {
+  content: "⭐";
+}
+
+/* 2.After */
+.sample-after::after {
+  content: "⭐";
+}
+
+/* 3.First Letter */
+.sample-1stletter::first-letter {
+  font-family: "Abril Fatface";
+  font-size: 30pt;
+  font-style: normal;
+}
+
+/* 4.First Line */
+.sample-1stline::first-line {
+  font-family: "Abril Fatface";
+  font-size: 30pt;
+  font-style: italic;
+  color: rgb(9, 9, 172);
+  background-color: rgb(196, 186, 172);
+}
+/* 5.Marker*/
+.list-result li::marker {
+  font-family: "Abril Fatface";
+  font-size: 20pt;
+  font-style: normal;
+  color: rgb(110, 151, 95);
+}
+/* 6.Selection */
+.sample-selection::selection {
+  color: rgb(0, 0, 0);
+  background-color: blanchedalmond;
+  text-shadow: 1px 1px 3px rgba(255, 0, 0, 0.682); /* Bóng chữ */
+}
+/* 7.Placeholder */
+.input-sample::placeholder {
+  color: red;
+  text-align: center;
+  opacity: 0.8;
+}

@@ -1,4 +1,4 @@
-<h1><b></b>Card Hover Effects</b></h1>
+<h1><b></b>HTML gallery</b></h1>
 <BR>=======================================
 <BR>+ Supervisor	: LÊ THANH NHÂN
 <BR>+ Semester		: I	
@@ -9,6 +9,6 @@
 <BR>=======================================
 <BR>Documentations: [None/Placeholder]
 <BR>=======================================
-<BR>Published website:  https://dangvinh77.github.io/github_test_push/
+<BR>Published website:  https://dangvinh77.github.io/github_test_command/
 <BR>=======================================
 <BR>Thank you for visit our website.

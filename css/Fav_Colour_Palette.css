@@ -1,0 +1,239 @@
+/* background: linear-gradient(
+  90deg,
+  rgb(112, 0, 0),
+  blue,
+  rgb(239, 94, 94),
+  rgb(255, 255, 0),
+  rgb(129, 129, 4)
+); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(203, 217, 181);
+}
+.Title-file {
+  font-size: 40px;
+  margin: 20px auto;
+  width: 50%;
+  background: linear-gradient(
+    to left,
+    rgb(69, 23, 109) 0%,
+    rgb(155, 77, 224) 25%,
+    rgb(143, 79, 7) 50%,
+    rgb(194, 244, 58) 75%,
+    rgb(32, 42, 3) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: 0.5px black;
+}
+.row-title {
+  width: 90%;
+  margin: auto;
+  display: flex; /* Sử dụng flexbox để tạo lưới */
+  flex-wrap: wrap; /* Đảm bảo các cột sẽ xuống dòng nếu vượt quá chiều rộng */
+  box-shadow: 0px 0px 20px;
+}
+.row {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: flex; /* Sử dụng flexbox để tạo lưới */
+  flex-wrap: wrap; /* Đảm bảo các cột sẽ xuống dòng nếu vượt quá chiều rộng */
+  box-shadow: 0px 0px 20px;
+}
+.fw-bold {
+  font-weight: 700; /* or 'bold' */
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.font-cus {
+  font-size: xx-large;
+  background: darkblue !important;
+  color: white !important;
+  text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px 0px 5px rgb(255, 255, 255),
+    0px 0px 5px rgb(16, 131, 181), 0px 0px 8px rgb(60, 8, 156) !important;
+}
+.font-cus-content {
+  font-size: small;
+  text-align: left !important;
+  padding-top: 5px !important;
+  padding-left: 15px !important;
+  color: white !important;
+  text-shadow: 0px 0px 2px rgb(255, 255, 255), 0px 0px 5px rgb(255, 255, 255),
+    0px 0px 5px rgb(16, 131, 181), 0px 0px 8px rgb(60, 8, 156) !important;
+}
+
+.h-100 {
+  height: 90% !important;
+}
+.col-sm-6 {
+  flex: 0 0 50%; /* Chiếm 4/12 = 33.33% chiều rộng */
+  max-width: 50%; /* Đặt giới hạn chiều rộng */
+  padding: 8px; /* Khoảng cách giữa các cột */
+  background-color: #f8f9fa; /* Màu nền mẫu */
+  border: 1px solid #ccc; /* Viền mẫu */
+  text-align: center; /* Canh giữa nội dung */
+  border: 1px solid blue;
+}
+
+.col-sm-4 {
+  flex: 0 0 33.333%; /* Chiếm 4/12 = 33.33% chiều rộng */
+  max-width: 33.333%; /* Đặt giới hạn chiều rộng */
+  padding: 8px; /* Khoảng cách giữa các cột */
+  background-color: #f8f9fa; /* Màu nền mẫu */
+  border: 1px solid #ccc; /* Viền mẫu */
+  text-align: center; /* Canh giữa nội dung */
+  border: 1px solid blue;
+}
+
+.col-sm-8 {
+  flex: 0 0 66.666%; /* Chiếm 8/12 = 66.66% chiều rộng */
+  max-width: 66.666%; /* Đặt giới hạn chiều rộng */
+  padding: 8px;
+  height: 20%;
+  margin-top: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: 1px solid rgb(171, 166, 166);
+  box-shadow: 0px 0px 10px black;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 20px;
+  text-align: center;
+}
+.bor-radius-cus {
+  border-radius: 30px;
+}
+
+/* Custom color for pallete */
+/* Set01 */
+.color-0D1E4C {
+  background: #0d1e4c !important;
+}
+.color-C48CB3 {
+  background: #c48cb3 !important;
+}
+.color-E5C9D7 {
+  background: #e5c9d7 !important;
+}
+.color-83A6CE {
+  background: #83a6ce !important;
+}
+.color-26415E {
+  background: #26415e !important;
+}
+.color-0B1B32 {
+  background: #0b1b32 !important;
+}
+
+/* Set02 */
+.color-181A2F {
+  background: #181a2f !important;
+}
+.color-242E49 {
+  background: #242e49 !important;
+}
+.color-37415C {
+  background: #37415c !important;
+}
+.color-FDA481 {
+  background: #fda481 !important;
+}
+.color-84182D {
+  background: #84182d !important;
+}
+.color-54162B {
+  background: #54162b !important;
+}
+
+/* Set03 */
+.color-03122F {
+  background: #03122f !important;
+}
+.color-19305C {
+  background: #19305c !important;
+}
+.color-413B61 {
+  background: #413b61 !important;
+}
+.color-AE7DAC {
+  background: #ae7dac !important;
+}
+.color-F3DADF {
+  background: #f3dadf !important;
+}
+.color-F1916D {
+  background: #f1916d !important;
+}
+/* Set04 */
+.color-1B1931 {
+  background: #1b1931 !important;
+}
+.color-44174E {
+  background: #44174e !important;
+}
+.color-662249 {
+  background: #662249 !important;
+}
+.color-A34054 {
+  background: #a34054 !important;
+}
+.color-ED9E59 {
+  background: #ed9e59 !important;
+}
+.color-59BCB9 {
+  background: #e9bcb9 !important;
+}
+/* Set05 */
+.color-150016 {
+  background: #150016 !important;
+}
+.color-29104A {
+  background: #29104a !important;
+}
+.color-522C5D {
+  background: #522c5d !important;
+}
+.color-845162 {
+  background: #845162 !important;
+}
+.color-E3B6B1 {
+  background: #e3b6b1 !important;
+}
+.color-FFE3D8 {
+  background: #ffe3d8 !important;
+}
+/* Set06 */
+.color-031716 {
+  background: #031716 !important;
+}
+.color-032F30 {
+  background: #032f30 !important;
+}
+.color-0A7075 {
+  background: #0a7075 !important;
+}
+.color-0C969C {
+  background: #0c969c !important;
+}
+.color-6BA3BE {
+  background: #6ba3be !important;
+}
+.color-274D60 {
+  background: #274d60 !important;
+}

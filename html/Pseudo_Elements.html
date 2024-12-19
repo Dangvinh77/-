@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Elements</title>
+    <link rel="website icon" href="../Images/Fpt-logo_transparent.png" />
+    <!-- Detect When Users Switch Tabs -->
+    <script src="../js/Detect_User_SwitchTab.js"></script>
+    <link rel="stylesheet" href="../css/Pseudo_Elements.css" />
+</head>
+
+<body></body>
+<header>
+    <h1 class="title-info">Pseudo Elements</h1>
+    <h3 class="subtitle-info">( Fire Effect Text )</h3>
+</header>
+<section>
+    <div class="table-css">
+        <div class="info-row">
+            <div class="title-tag">:: Before</div>
+            <div class="detail-description">
+                Insert something before content of element.
+            </div>
+            <div class="code-sample">/*name id class*/::before{content:"⭐"}</div>
+            <div class="result-sample">
+                <div class="sample-before">Context</div>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="title-tag">:: After</div>
+            <div class="detail-description">
+                Insert something after content of element.
+            </div>
+            <div class="code-sample">/*name id class*/::after{content:"⭐"}</div>
+            <div class="result-sample">
+                <div class="sample-after">Context</div>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="title-tag">:: First-letter</div>
+            <div class="detail-description">
+                Selects the first letter of an element.
+            </div>
+            <div class="code-sample">/*name id class*/::first-letter{/*styling*/}</div>
+            <div class="result-sample">
+                <div class="sample-1stletter">Context</div>
+            </div>
+        </div>
+
+
+        <div class="info-row">
+            <div class="title-tag">:: First-line</div>
+            <div class="detail-description">
+                Selects the first line of an element.
+            </div>
+            <div class="code-sample">h4::first-line{/*styling*/}</div>
+            <div class="result-sample">
+                <div class="sample-1stline">
+                    Context Context Context Context <br />
+                    Context Context Context Context <br />
+                    Context Context Context Context.
+                </div>
+
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="title-tag">:: Marker</div>
+            <div class="detail-description">Selects markers of list items.</div>
+            <div class="code-sample">
+                <div class="code-block">ul::marker{color:"white";}</div>
+                <div class="code-block">ol::marker{color:"white";}</div>
+            </div>
+            <div class="result-sample">
+                <ul class="list-result">
+                    <li>Context</li>
+                    <li>Context</li>
+                </ul>
+                <ol class="list-result">
+                    <li>Context</li>
+                    <li>Context</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="info-row">
+            <div class="title-tag">:: Selection</div>
+            <div class="detail-description">
+                Selects the portion of an element that is selected by a user.
+            </div>
+            <div class="code-sample">
+                <div class="sample-selection">h4::selection{/*styling*/}</div>
+            </div>
+            <div class="result-sample">
+                <div class="sample-selection">
+                    Context Context Context Context
+                    Context Context Context Context
+                    Context Context.
+                </div>
+
+            </div>
+        </div>
+        <div class="info-row">
+            <div class="title-tag">:: Placeholder</div>
+            <div class="detail-description">Placeholder for input element.</div>
+            <div class="code-sample">input::placeholder{/*Styling*/}</div>
+            <div class="result-sample">
+                <input class="input-sample" type="text" placeholder="Enter content" />
+            </div>
+        </div>
+    </div>
+</section>
+
+</html>

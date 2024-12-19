@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #260f4ed0 !important;
+}
+
+.table th {
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    border: 5px solid #00ff08;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(21, 1, 1, 0.595);
+    color: #ffffff;
+    vertical-align: middle;
+    padding: 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.table img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Loại bỏ khoảng cách giữa ảnh và các ô */
+}
+.Image02{
+    filter: blur(5px);
+}
+.Image03{
+    filter: brightness(0.5);
+}
+.Image04{
+    filter:contrast(200%);
+}
+.Image05{
+    filter:grayscale(100%);
+}
+.Image06{
+    filter:hue-rotate(90deg);
+}
+.Image07{
+    filter:invert(75%);
+}
+.Image08{
+    filter:opacity(35%);
+}
