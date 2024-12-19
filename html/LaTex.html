@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaTeX with MathJax</title>
+    <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <style>
+        .mathjax {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hiển thị LaTeX trong HTML</h1>
+
+    <p>DEMO Nhập công thức toán học trên website:</p>
+
+    <!-- Công thức inline -->
+    <p>Ví dụ Hàm số bậc 2: \( f(x) = ax^2 + bx + c \)</p>
+
+    <!-- Công thức display mode -->
+    <div class="mathjax">
+        <p>Đề bài:</p>
+        $$
+        \begin{aligned}
+        M &= (x-a)(x-b) + (x-b)(x-c) + (x-a)(x-c) + x^2 \\[10pt]
+        & \text{Với } x = \frac{a}{2} + \frac{b}{2} + \frac{c}{2}
+        \end{aligned}
+        $$
+        <p>Đáp án:</p>
+        $$
+        \begin{aligned}
+        M &= (x-a)(x-b) + (x-b)(x-c) + (x-a)(x-c) + x^2 \\[10pt]
+        &= x^2 -x(a+b) +ab +x^2-x(b+c)+bc+x^2-x(a+c)+ac+x^2\\[10pt]
+        &=4x^2 - x(a+b+b+c+a+c) + ab+bc+ac\\[10pt]
+        &=4x^2 - 2x(a+b+c) + ab+bc+ac\\[10pt]
+        &=4.\frac{(a+b+c)^2}{4} - 2.\frac{a+b+c}{2}.(a+b+c) +ab+bc+ac\\[10pt]
+        &= ab + bc +ac
+        \end{aligned}
+        $$
+    </div>
+
+</body>
+
+</html>
