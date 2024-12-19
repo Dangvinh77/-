@@ -1,14 +1,7 @@
 <h1><b></b>HTML gallery</b></h1>
 <BR>=======================================
-<BR>+ Supervisor	: LÊ THANH NHÂN
-<BR>+ Semester		: I	
-<BR>+ Batch No		: T5-2410-E0	
-<BR>+ Group No:		: 01
-<BR>+ List Of Member:
-	<BR>1. Phạm Đăng Vinh 	(Student1614910)	
-<BR>=======================================
-<BR>Documentations: [None/Placeholder]
+<BR>Owner: Phạm Đăng Vinh	
 <BR>=======================================
 <BR>Published website:  https://dangvinh77.github.io/github_test_command/
 <BR>=======================================
-<BR>Thank you for visit our website.
+<BR>Thank you for visit my website.
